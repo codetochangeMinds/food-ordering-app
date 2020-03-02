@@ -8,7 +8,7 @@ import {
 
 class Dishdetail extends Component{
     renderDish(dish) {
-        if (dish != null)
+        if (dish != null){
           return (
             <Card>
               <CardImg top src={dish.image} alt={dish.name} />
@@ -18,20 +18,23 @@ class Dishdetail extends Component{
               </CardBody>
             </Card>
           );
+        }
         else
           return (
             <div></div>
           );
     }
+
     renderCommentsHelper(dish){
-      dish.comments.forEach(element => {
-        console.log(element.comment);
+        const info = dish.comments.map((element) => {
         return(
           <div key={element.id}>
-            <h6>Comments</h6>
+            <p>{element.comment}</p>
+            <p>--{element.author} , {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(element.date)))}</p>
           </div>
         );
       })
+      return info;
     }
 
     renderComments(dish) {
@@ -39,8 +42,8 @@ class Dishdetail extends Component{
         return (
           <Card>
             <CardBody>
-              <CardTitle>Comments</CardTitle>
-              { this.renderCommentsHelper(dish)}
+              <CardTitle><h4>Comments</h4></CardTitle>
+              {this.renderCommentsHelper(dish)}
             </CardBody>
           </Card>
         );
@@ -53,19 +56,6 @@ class Dishdetail extends Component{
     
 
     render(){
-      // const renderComments = this.props.dish.comments.map((commentInfo) => {
-      //   return (
-      //     <div className="col-12 col-md-5 m-1">
-      //       <Card key={commentInfo.id}>
-      //         <CardBody>
-      //         {commentInfo.comment}
-
-      //         </CardBody>
-      //       </Card>
-      //     </div>
-      //   );
-      // });
-
       return (
         <div className="container">
           <div className="row">
