@@ -110,7 +110,7 @@ export const DISHES =
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+            comment: "Sends Abhishek yadav does not like anyone to heaven, I wish I could get my mother-in-law to eat it!",
             author: "Paul McVites",
             date: "2014-09-05T17:57:28.556094Z"
             },
@@ -124,7 +124,7 @@ export const DISHES =
             {
             id: 3,
             rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
+            comment: "Ultimate",
             author: "Ringo Starry",
             date: "2013-12-02T17:57:28.556094Z"
             },
