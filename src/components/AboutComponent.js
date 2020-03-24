@@ -29,14 +29,15 @@ function About(props) {
             <div key={leader.id} >
                 {/* <renderLeader leader={leader} />
                 <p>{leader.description}</p> */}
-                <Media className="row leader-content">
-                    <Media left className="col-12 col-md-6">
+                <Media className="row">
+                    <Media left className="col-md-2">
                         <Media object src={leader.image} alt={leader.name} />
                     </Media>
-                    <Media body className="col-12 col-md-6">
-                        <Media heading className="col-12">
+                    <Media body className="col-md-8">
+                        <Media heading>
                         {leader.name}
                         </Media>
+                        <p>{leader.designation}</p>
                         <p>{leader.description}</p>
                     </Media>
                 </Media>
