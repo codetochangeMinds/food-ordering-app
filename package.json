@@ -2,6 +2,7 @@
   "name": "confusion",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://codetochangeMinds.github.io/food-ordering-app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -17,8 +18,9 @@
     "reactstrap": "^5.0.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
