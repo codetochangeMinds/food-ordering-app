@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/food-ordering-app/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "4bacad240fedde64ac4a",
-    "url": "/food-ordering-app/static/css/main.6525c62c.chunk.css"
+    "revision": "5fd97439044059a30b02",
+    "url": "/food-ordering-app/static/css/main.9da04539.chunk.css"
   },
   {
     "revision": "c7bd2ccac0f24a7e8fb4",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/food-ordering-app/static/js/2.6f09198e.chunk.js"
   },
   {
-    "revision": "4bacad240fedde64ac4a",
-    "url": "/food-ordering-app/static/js/main.afba9491.chunk.js"
+    "revision": "5fd97439044059a30b02",
+    "url": "/food-ordering-app/static/js/main.1754f953.chunk.js"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/food-ordering-app/static/css/2.b8fa1313.chunk.css"
   },
   {
-    "revision": "53e3eb4af218b21540803b7a0dde8a48",
+    "revision": "3cbe4515b318cea06534a9238b464050",
     "url": "/food-ordering-app/index.html"
   }
 ];
