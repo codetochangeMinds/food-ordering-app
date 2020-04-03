@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './MenuComponent';
-import { DISHES } from '../shared/dishes'
+
 import Dishdetail from './DishdetailComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
@@ -13,6 +13,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { COMMENTS } from '../shared/comments';
 import { PROMOTIONS } from '../shared/promotions';
 import { LEADERS } from '../shared/leader';
+import { DISHES } from '../shared/dishes'
 
 class Main extends Component {
     constructor(props) {
@@ -52,6 +53,7 @@ class Main extends Component {
         <div>
           <Header />
           <Switch>
+              <Route exact path='/' component={HomePage} />
               <Route path='/home' component={HomePage} />
               <Route exact path='/menu' component={() => <Menu dishes={this.state.dishes} />} />
               <Route exact path='/contactus' component={Contact} />
