@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/food-ordering-app/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "5fd97439044059a30b02",
+    "revision": "2d5c3575c97e51bc2426",
     "url": "/food-ordering-app/static/css/main.9da04539.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/food-ordering-app/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "7d518c9f575c0576a8e1",
+    "revision": "14a5a6f0ed7402056169",
     "url": "/food-ordering-app/static/js/2.6f09198e.chunk.js"
   },
   {
-    "revision": "5fd97439044059a30b02",
-    "url": "/food-ordering-app/static/js/main.1754f953.chunk.js"
+    "revision": "2d5c3575c97e51bc2426",
+    "url": "/food-ordering-app/static/js/main.4ad14ce2.chunk.js"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/food-ordering-app/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "7d518c9f575c0576a8e1",
-    "url": "/food-ordering-app/static/css/2.b8fa1313.chunk.css"
+    "revision": "14a5a6f0ed7402056169",
+    "url": "/food-ordering-app/static/css/2.32d1e0d3.chunk.css"
   },
   {
-    "revision": "3cbe4515b318cea06534a9238b464050",
+    "revision": "8a6868a6843a88eab4928ae9ade64a64",
     "url": "/food-ordering-app/index.html"
   }
 ];
